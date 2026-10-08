@@ -44,11 +44,11 @@ script: |-
   exit $dbt_test_exit_code
 data_components:
 - dbt
-- dbt-test-results
-- matatika
-- elementary
-- notebook
-- sendgrid
+- utilities/dbt-test-results--matatika
+- utilities/matatika--matatika
+- utilities/elementary--matatika
+- utilities/notebook--matatika
+- utilities/sendgrid--matatika
 properties:
   notebook.path: notebook/data_quality_report.ipynb
   sendgrid.body: email_template.html
