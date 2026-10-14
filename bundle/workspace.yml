@@ -134,7 +134,6 @@ app_properties:
     ]
   DASHBOARD_PAGE_TITLE: Data Quality Dashboard
   WELCOME_DATASET_ALIAS: welcome
-default_data_store: Warehouse
 dataset_paths:
 - analyze/datasets
 - .meltano/analyze/datasets
